@@ -1,2 +1,3 @@
-# javtube.github.io
-Just Another Video Tube for GitHub Pages.
+# JavTube
+
+Just Another Video Tube GitHub Pages.

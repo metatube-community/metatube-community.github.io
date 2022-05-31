@@ -1,1 +1,12 @@
 theme: jekyll-theme-cayman
+title: JavTube
+description: Just Another Video Tube Plugin for Jellyfin/Emby.
+
+url: https://github.com/javtube/jellyfin-plugin-javtube
+repo: https://github.com/javtube/jellyfin-plugin-javtube
+download_url: https://github.com/javtube/jellyfin-plugin-javtube/releases
+
+github:
+  is_project_page: true
+  repository_name: jellyfin-plugin-javtube
+  repository_url: https://github.com/javtube/jellyfin-plugin-javtube
