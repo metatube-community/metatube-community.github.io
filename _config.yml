@@ -5,6 +5,7 @@ description: Just Another Video Tube Plugin for Jellyfin/Emby.
 url: https://github.com/javtube/jellyfin-plugin-javtube
 repo: https://github.com/javtube/jellyfin-plugin-javtube
 download_url: https://github.com/javtube/jellyfin-plugin-javtube/releases
+show_downloads: true
 
 github:
   is_project_page: true
