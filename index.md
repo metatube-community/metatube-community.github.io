@@ -2,7 +2,7 @@
 
 English | [简体中文](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
 
-[Plugin Banner](https://github.com/javtube/jellyfin-plugin-javtube/raw/main/docs/banner.png)
+![Plugin Banner](https://github.com/javtube/jellyfin-plugin-javtube/raw/main/docs/banner.png)
 
 ## How it works
 
@@ -15,23 +15,18 @@ English | [简体中文](https://github.com/javtube/jellyfin-plugin-javtube/wiki
 
 ## How to use
 
-### Deploy `javtube-server`
+### Deploy server
 
-➤ [portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
+➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
 
 ### Install Plugin
 
-➤ [portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
+➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
 
 ### Update plugin
 
-#### Jellyfin
-
-Jellyfin will automatically update plugin as long as you install it via repo url.
-
-#### Emby
-
-Emby's JavTube uses scheduled tasks to check for and download updates, if any available.
+- Jellyfin will automatically update plugin as long as you install it via repo url.
+- Emby's JavTube uses scheduled tasks to check for and download updates, if any available.
 
 *A restart is required to apply plugin updates.*
 
@@ -46,7 +41,7 @@ Emby's JavTube uses scheduled tasks to check for and download updates, if any av
 
 ## Usage
 
-- After adding movies, click `scan library` button.
+- Click `Scan Library` button after adding movies.
 - Use `Refresh Metadata` to update metadata.
 - Use `Identify` to search for specific movies.
 
@@ -58,12 +53,12 @@ For now, we use [`GFriends`](https://github.com/xinxin8816/gfriends) ans [`XsLis
 
 ### Suggestions
 
-- Better file naming can improve search/identification accuracy, see [naming rules](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83) for more details.
+- Normal file names can improve search/identification accuracy, see [naming rules](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83) for more details.
 - Select `JavTube` as the only Metadata Provider can avoid certain conflict bugs.
 
 ## Feedback
 
-- If you encounter bugs, please submit issues at [issues](https://github.com/javtube/jellyfin-plugin-javtube/issues).
+- If you encounter bugs, please submit issues at [Issues](https://github.com/javtube/jellyfin-plugin-javtube/issues).
 - If you have any questions, welcome and feel free to ask at [Discussions](https://github.com/javtube/jellyfin-plugin-javtube/discussions).
 
 ## Screenshots
