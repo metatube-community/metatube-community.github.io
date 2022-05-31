@@ -49,7 +49,7 @@ English | [简体中文](https://github.com/javtube/jellyfin-plugin-javtube/wiki
 
 JavTube integrates Actor Providers and is able to automatically search and identify actors by their names. You don't need to do any configuration to make it work, it already works like a charm!
 
-For now, we use [`GFriends`](https://github.com/xinxin8816/gfriends) ans [`XsList`](https://xslist.org/zh) as sources to provider actor information and images.
+For now, we use [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](https://xslist.org/zh) as sources to provider actor information and images.
 
 ### Suggestions
 
