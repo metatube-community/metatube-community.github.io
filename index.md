@@ -2,7 +2,7 @@
 
 English | [简体中文](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
 
-![Plugin Banner](https://github.com/javtube/jellyfin-plugin-javtube/raw/main/docs/banner.png)
+![Plugin Banner](https://raw.githubusercontent.com/javtube/jellyfin-plugin-javtube/main/docs/banner.png)
 
 ## How it works
 
