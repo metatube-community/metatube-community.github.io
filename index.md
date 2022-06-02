@@ -1,6 +1,6 @@
 ![Plugin Banner](https://raw.githubusercontent.com/javtube/jellyfin-plugin-javtube/main/docs/banner.png)
 
-English | [简体中文](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
+[中文文档](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
 
 ## How it works
 
@@ -61,7 +61,7 @@ For now, [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](htt
 
 ## Screenshots
 
-[Here are screenshots for preview purpose.](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88)
+[Here are screenshots for preview purpose only.](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88)
 
 ## License
 
