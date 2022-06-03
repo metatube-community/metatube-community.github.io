@@ -1,7 +1,5 @@
 ![Plugin Banner](https://raw.githubusercontent.com/javtube/jellyfin-plugin-javtube/main/docs/banner.png)
 
-[中文文档](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
-
 ## How it works
 
 - Utilize a backend API server called `javtube-server` to scrape content from [providers](#providers) and response with JSON.
@@ -12,6 +10,8 @@
 [Here are supported providers.](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
 
 ## How to use
+
+➤ [中文文档](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
 
 ### Deploy server
 
