@@ -11,19 +11,19 @@
 
 ## 数据来源
 
-➤ 请看[数据来源](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)页面。
+请参考[数据来源](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)页面。
 
 ## 如何使用
 
-➤ [完整 Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
+完整的文档以及使用方法，请参阅 [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki)。
 
 ### 后端部署
 
-➤ 请看[后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)页面。
+- ➤ 请看[后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)页面。
 
 ### 插件安装
 
-➤ 请看[插件安装](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)页面。
+- ➤ 请看[插件安装](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)页面。
 
 ### 插件更新
 

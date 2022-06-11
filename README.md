@@ -9,19 +9,19 @@ English | [简体中文](README_ZH.md)
 
 ## Providers
 
-[Here are supported providers.](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
+Full provider list can be found at [here](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90).
 
 ## How to use
 
-➤ [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
+Full documentation and examples can be found at [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki).
 
 ### Deploy server
 
-➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
+- ➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
 
 ### Install Plugin
 
-➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
+- ➤ [jump to portal](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
 
 ### Update plugin
 
