@@ -19,11 +19,11 @@
 
 ### 后端部署
 
-- ➤ 请看[后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)页面。
+- 请看[后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)页面。
 
 ### 插件安装
 
-- ➤ 请看[插件安装](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)页面。
+- 请看[插件安装](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)页面。
 
 ### 插件更新
 
@@ -61,7 +61,7 @@ JavTube 集成了内置的演员提供源，可以通过演员名自动地搜索
 
 ### 关于代理
 
-➤ 请看[关于代理](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%85%B3%E4%BA%8E%E4%BB%A3%E7%90%86)页面。
+请看[关于代理](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%85%B3%E4%BA%8E%E4%BB%A3%E7%90%86)页面。
 
 ## 问题反馈
 
@@ -72,7 +72,7 @@ JavTube 集成了内置的演员提供源，可以通过演员名自动地搜索
 
 ## 效果预览
 
-➤ 请看[效果预览](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88)页面。
+[预览仅供参考](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88)。
 
 ## 授权许可
 
