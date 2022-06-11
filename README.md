@@ -1,4 +1,6 @@
-![Plugin Banner](https://javtube.github.io/logos/banner.png)
+![Plugin Banner](logos/banner.png)
+
+English | [简体中文](README_ZH.md)
 
 ## How it works
 
@@ -11,7 +13,7 @@
 
 ## How to use
 
-➤ [中文文档](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
+➤ [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki)
 
 ### Deploy server
 
