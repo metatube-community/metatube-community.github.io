@@ -4,6 +4,8 @@
 
 ![library](library.jpg)
 
+![library-full](library-full.jpg)
+
 ## 详情页面
 
 ### 影片详情（上）
