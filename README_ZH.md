@@ -74,7 +74,7 @@ JavTube 集成了内置的演员提供源，可以通过演员名自动地搜索
 
 ## 效果预览
 
-[预览仅供参考](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88)。
+[预览仅供参考](./previews/)。
 
 ## 授权许可
 

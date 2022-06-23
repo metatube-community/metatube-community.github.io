@@ -63,7 +63,7 @@ For now, [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](htt
 
 ## Previews
 
-[Screenshots are for preview only](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88).
+[Screenshots are for preview only](./previews/).
 
 ## License
 
