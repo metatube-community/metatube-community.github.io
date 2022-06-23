@@ -61,9 +61,9 @@ For now, [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](htt
 - If you encounter bugs, please submit issues at [Issues](https://github.com/javtube/jellyfin-plugin-javtube/issues).
 - If you have any questions, welcome and feel free to ask at [Discussions](https://github.com/javtube/jellyfin-plugin-javtube/discussions).
 
-## Screenshots
+## Previews
 
-[Here are screenshots for preview purpose only](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88).
+[Screenshots are for preview only](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88).
 
 ## License
 

@@ -19,6 +19,8 @@
 
 ### 后端部署
 
+> 推荐使用[Heroku一键部署](https://github.com/javtube/javtube-server-heroku)。
+
 - 请看[后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)页面。
 
 ### 插件安装
