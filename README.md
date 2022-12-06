@@ -63,7 +63,8 @@ For now, [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](htt
 
 ## Previews
 
-[Screenshots are for preview only](./previews/).
+<!-- [Screenshots are for preview only](./previews/). -->
+[Screenshots are for preview only](/#).
 
 ## License
 
