@@ -1,13 +1,13 @@
 theme: jekyll-theme-cayman
-title: JavTube
+title: MetaTube
 description: Just Another Video Tube Plugin for Jellyfin/Emby.
 
-url: https://github.com/javtube/jellyfin-plugin-javtube
-repo: https://github.com/javtube/jellyfin-plugin-javtube
-download_url: https://github.com/javtube/jellyfin-plugin-javtube/releases
+url: https://github.com/metatube-community/jellyfin-plugin-metatube
+repo: https://github.com/metatube-community/jellyfin-plugin-metatube
+download_url: https://github.com/metatube-community/jellyfin-plugin-metatube/releases
 show_downloads: true
 
 github:
   is_project_page: true
-  repository_name: jellyfin-plugin-javtube
-  repository_url: https://github.com/javtube/jellyfin-plugin-javtube
+  repository_name: jellyfin-plugin-metatube
+  repository_url: https://github.com/metatube-community/jellyfin-plugin-metatube
