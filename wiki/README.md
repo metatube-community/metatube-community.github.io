@@ -1,6 +1,6 @@
-![Plugin Banner](https://javtube.github.io/logos/banner.png)
+![Plugin Banner](/logos/banner.png)
 
-<p align=center>另一个为 Jellyfin/Emby 开发的超级好用的 JAV 插件</p>
+<p align=center>Wiki of MetaTube Plugin</p>
 
 ## 快速开始
 
