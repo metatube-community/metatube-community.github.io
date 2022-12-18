@@ -14,7 +14,7 @@
 
 ## 主要原理
 
-- 通过`metatube-server`后端从相应[数据来源](./wiki/provider-source.md)爬取数据并保存在数据库中。
+- 通过`metatube-server`后端从相应[数据来源](./wiki/metadata-providers.md)爬取数据并保存在数据库中。
 - 安装好的 MetaTube 插件通过扫描到的本地文件名，向`metatube-server`请求查询，并下载相应的元数据与图片。
 
 > 其中，图像裁剪、人脸识别、自动翻译等诸多复杂的功能也均在服务端完成。

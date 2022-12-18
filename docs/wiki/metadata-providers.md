@@ -1,4 +1,4 @@
-# Provider source (数据来源)
+# Metadata providers (数据来源)
 
 MetaTube 支持的刮削源如下：
 
