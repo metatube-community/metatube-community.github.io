@@ -14,6 +14,7 @@ copyright: Developed and maintained by MetaTube members with ❤️
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
@@ -46,6 +47,9 @@ plugins:
 # Extra settings
 extra:
   # generator: false
+  analytics:
+    provider: cloudflare
+    property: c5351f010d5849b893eef1cb8a1c55d0
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/metatube-community
