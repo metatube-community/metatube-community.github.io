@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!-- saved from url=(0093)https://avisek.github.io/Pornhub-Style-Logo-Maker/?pornText=Meta&hubText=Tube&lightTheme=true -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		
+		<meta name="keywords" content="pornhub,style,logo,text,image,maker,funny,meme">
+		<meta name="description" content="Have a funny idea about a logo that mimics the Pornhub style?">
+		<meta name="subject" content="Logo Maker">
+		<meta name="copyright" content="Avisek Das">
+		<meta name="author" content="Avisek Das">
+		<meta name="designer" content="Avisek Das">
+		<meta name="reply-to" content="avisekdas555@gmail.com">
+		<meta name="owner" content="Avisek Das">
+		<meta name="url" content="https://avisek.github.io/Pornhub-Style-Logo-Maker">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="theme-color" content="#141414">
+
+		<title>MetaTube - Logo Maker</title>
+
+		<link rel="stylesheet" href="./css/booter.css">
+		<link rel="stylesheet" href="./css/style.css">
+
+		<!--style></style-->
+
+		<script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+		<script>
+(function() {
+	// Error Tracking
+	window.onerror = function(errorMsg, url, lineNumber) {
+		alert("JavaScript Error!\n\nMassage: " + errorMsg + "\nURL: " + url + "\nLine: " + lineNumber + "\n");
+	};
+})();
+		</script>
+
+	</head>
+
+	<body>
+
+		<main role="main">
+			<div class="container">
+				<h1 class="mt-4">Logo Maker</h1>
+				<div class="tip tip-hidden" id="tip" style="height: 0px;">
+					<div class="tip-inner">Click on the text below and edit.</div>
+				</div>
+				<div class="row">
+					<div class="col-md-7 mb-4">
+						<div class="pornhub-wrapper" id="pornhub-wrapper" style="max-width: 746.667px;">
+							<div class="pornhub-fill" id="pornhub-fill" style="padding-top: 75%;"></div>
+							<div class="pornhub light" id="pornhub" style="font-size: 62.56px;">
+								<div class="porn-text" id="porn-text" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="on">Meta</div>
+								<div class="hub-text" id="hub-text" contenteditable="true" spellcheck="false" autocorrect="off" autocapitalize="off">Tube</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="form-row">
+							<div class="form-group col-6">
+								<label for="width">Width</label>
+								<input type="text" class="form-control" id="width" value="1024" placeholder="1" spellcheck="false" autocorrect="off" autocapitalize="off">
+							</div>
+							<div class="form-group col-6">
+								<label for="height">Height</label>
+								<input type="text" class="form-control" id="height" value="768" placeholder="1" spellcheck="false" autocorrect="off" autocapitalize="off">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-6">
+								<label for="font-size">Font Size</label>
+								<input type="text" class="form-control" id="font-size" value="24" placeholder="117.76" spellcheck="false" autocorrect="off" autocapitalize="off">
+							</div>
+							<div class="form-group col-6 d-flex">
+								<div class="custom-control custom-checkbox align-self-end" style="padding-bottom: 7px; line-height: 1.5;">
+									<input type="checkbox" id="font-size-auto" class="custom-control-input" checked="">
+									<label class="custom-control-label" for="font-size-auto">Auto</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-6">
+								<label>Theme</label>
+								<div class="form-row">
+									<div class="form-group col-6 mb-0">
+										<div class="custom-control custom-radio">
+											<input type="radio" id="theme-dark" name="theme" class="custom-control-input" checked="">
+											<label class="custom-control-label" for="theme-dark">Dark</label>
+										</div>
+									</div>
+									<div class="form-group col-6 mb-0">
+										<div class="custom-control custom-radio">
+											<input type="radio" id="theme-light" name="theme" class="custom-control-input">
+											<label class="custom-control-label" for="theme-light">Light</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-group col-6">
+								<label>Style</label>
+								<div class="form-row">
+									<div class="form-group col-6 mb-0">
+										<div class="custom-control custom-radio">
+											<input type="radio" id="style-1" name="style" class="custom-control-input" checked="">
+											<label class="custom-control-label" for="style-1">1</label>
+										</div>
+									</div>
+									<div class="form-group col-6 mb-0">
+										<div class="custom-control custom-radio">
+											<input type="radio" id="style-2" name="style" class="custom-control-input">
+											<label class="custom-control-label" for="style-2">2</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="filename">Filename</label>
+							<input type="text" id="filename" class="form-control" value="image.png" placeholder="image.png" spellcheck="false" autocorrect="off" autocapitalize="off">
+						</div>
+						<button type="button" id="save" class="btn btn-lg btn-block btn-outline-primary">Save Image</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="mastfoot my-5 pt-5 text-center">
+			<p>Made with ♥ by <a href="https://github.com/AvisekDas555" target="_blank">Avi</a>.</p>
+		</footer>
+
+		<!-- script src="js/script.js"></script -->
+
+		<script>
+(function() {
+
+	// function download(_canvas, filename) {
+	// 	div = document.getElementById("pornhub-wrapper");
+	// 	html2canvas(div).then(canvas => {
+	// 		var lnk = document.createElement("a"),
+	// 		e;
+	// 		lnk.download = filename;
+	// 		lnk.href = canvas.toDataURL();
+	// 		if (document.createEvent) {
+	// 			e = document.createEvent("MouseEvents");
+	// 			e.initMouseEvent("click", true, true, window,
+	// 				0, 0, 0, 0, 0, false, false, false,
+	// 				false, 0, null);
+	// 			lnk.dispatchEvent(e);
+	// 		} else if (lnk.fireEvent) {
+	// 			lnk.fireEvent("onclick");
+	// 		}
+	// 	});
+	// }
+
+	function download(canvas, filename) {
+		var lnk = document.createElement("a"),
+			e;
+		lnk.download = filename;
+		lnk.href = canvas.toDataURL();
+		if (document.createEvent) {
+			e = document.createEvent("MouseEvents");
+			e.initMouseEvent("click", true, true, window,
+				0, 0, 0, 0, 0, false, false, false,
+				false, 0, null);
+			lnk.dispatchEvent(e);
+		} else if (lnk.fireEvent) {
+			lnk.fireEvent("onclick");
+		}
+	}
+
+	function getTextHeight(font) {
+		var text = document.createElement("span");
+		text.appendChild(document.createTextNode("Hg"));
+		text.style.font = font;
+		var block = document.createElement("div");
+		block.style.display = "inline-block";
+		block.style.width = "1px";
+		block.style.height = "0";
+		var div = document.createElement("div");
+		div.style.position = "absolute";
+		div.appendChild(text);
+		div.appendChild(block);
+		document.body.appendChild(div);
+		var result = {};
+		block.style.verticalAlign = "baseline";
+		result.ascent = block.offsetTop - text.offsetTop;
+		block.style.verticalAlign = "bottom";
+		result.height = block.offsetTop - text.offsetTop;
+		result.descent = result.height - result.ascent;
+		document.body.removeChild(div);
+		return result;
+	}
+
+	var pornhubElt = document.getElementById("pornhub");
+	var pornhubWrapperElt = document.getElementById("pornhub-wrapper");
+	var pornhubFillElt = document.getElementById("pornhub-fill");
+	var pornTextElt = document.getElementById("porn-text");
+	var hubTextElt = document.getElementById("hub-text");
+	var widthElt = document.getElementById("width");
+	var heightElt = document.getElementById("height");
+	var fontSizeElt = document.getElementById("font-size");
+	var fontSizeAutoElt = document.getElementById("font-size-auto");
+	var themeDarkElt = document.getElementById("theme-dark");
+	var themeLightElt = document.getElementById("theme-light");
+	var style1Elt = document.getElementById("style-1");
+	var style2Elt = document.getElementById("style-2");
+	var filenameElt = document.getElementById("filename");
+	var saveBtn = document.getElementById("save");
+	var tipElt = document.getElementById("tip");
+	var pornText = "Porn";
+	var hubText = "hub";
+	var width = 1024;
+	var height = 768;
+	var fontSize = 24;
+	var fontSizeAuto = true;
+	var lightTheme = false;
+	var style2 = false;
+	var filename = "image.png";
+	var defaultParams;
+	var textOnInputTimeout;
+
+	function formatInt(text, defaultNumber, min, max) {
+		var n = parseInt(text);
+		return Math.max(typeof min === "number" ? min : -Infinity, Math.min(isNaN(n) ? (typeof defaultNumber === "number" ? defaultNumber : 0) : n, typeof max === "number" ? max : Infinity));
+	}
+
+	function formatFloat(text, defaultNumber, min, max) {
+		var n = parseFloat(text);
+		return Math.max(typeof min === "number" ? min : -Infinity, Math.min(isNaN(n) ? (typeof defaultNumber === "number" ? defaultNumber : 0) : n, typeof max === "number" ? max : Infinity));
+	}
+
+	function getParams() {
+		return {
+			pornText: pornTextElt.textContent,
+			hubText: hubTextElt.textContent,
+			width: formatInt(widthElt.value),
+			height: formatInt(heightElt.value),
+			fontSize: formatFloat(fontSizeElt.value),
+			fontSizeAuto: fontSizeAutoElt.checked,
+			lightTheme: themeLightElt.checked,
+			style2: style2Elt.checked,
+			filename: filenameElt.value
+		};
+	}
+
+	function setFromQueryParams() {
+		var location = window.location;
+		var params = {};
+		var query = location.search.substring(1);
+		if (query) {
+			var vars = query.split("&");
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split("=");
+				params[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1]);
+			}
+		}
+		typeof params.pornText !== "undefined" && (pornTextElt.textContent = params.pornText);
+		typeof params.hubText !== "undefined" && (hubTextElt.textContent = params.hubText);
+		typeof params.width !== "undefined" && (widthElt.value = formatInt(params.width));
+		typeof params.height !== "undefined" && (heightElt.value = formatInt(params.height));
+		typeof params.fontSize !== "undefined" && (fontSizeElt.value = formatFloat(params.fontSize));
+		typeof params.fontSizeAuto !== "undefined" && (fontSizeAutoElt.checked = params.fontSizeAuto === "true");
+		typeof params.lightTheme !== "undefined" && (themeLightElt.checked = params.lightTheme === "true", themeDarkElt.checked = !themeLightElt.checked);
+		typeof params.style2 !== "undefined" && (style2Elt.checked = params.style2 === "true", style1Elt.checked = !style2Elt.checked);
+		typeof params.filename !== "undefined" && (filenameElt.value = params.filename);
+		updateText();
+		updateWidthHeight();
+		updateTheme();
+		updateStyle();
+		updateFontSize();
+		updateFilename();
+		updateUI();
+	}
+
+	function updateQueryParams() {
+		var params = getParams();
+		var location = window.location;
+		var query = "";
+		for (var q in params) {
+			var param = params[q];
+			if (q === "fontSize" ? !params.fontSizeAuto : param !== defaultParams[q]) {
+				query += (query ? "&" : "?") + encodeURIComponent(q) + "=" + encodeURIComponent(param);
+			}
+		}
+		// var url = location.origin + location.pathname + query + location.hash;
+		var url = location.protocol + "//" + location.hostname + (location.port ? ":" + location.port : "") + location.pathname + query + location.hash;
+		if (window.history.pushState) {
+			window.history.replaceState({}, "", url);
+		}
+	}
+
+	defaultParams = getParams();
+
+	function updateWidthHeight() {
+		var w = formatInt(widthElt.value, 1, 1);
+		var h = formatInt(heightElt.value, 1, 1);
+		var normalizingFactor = 8000 / Math.max(w, h);
+		if (normalizingFactor < 1) {
+			w *= normalizingFactor;
+			h *= normalizingFactor;
+		}
+		width = Math.round(w);
+		height = Math.round(h);
+	}
+
+	function widthHeightOnChange() {
+		updateWidthHeight();
+		updateUI();
+	}
+
+	widthElt.addEventListener("input", widthHeightOnChange);
+	heightElt.addEventListener("input", widthHeightOnChange);
+
+	function updateWidthHeightInputs() {
+		widthElt.value = width;
+		heightElt.value = height;
+	}
+
+	function updateTheme() {
+		lightTheme = themeLightElt.checked;
+	}
+
+	function themeOnChange() {
+		updateTheme();
+		updateUI();
+	}
+
+	themeDarkElt.addEventListener("change", themeOnChange);
+	themeLightElt.addEventListener("change", themeOnChange);
+
+	function updateStyle() {
+		style2 = style2Elt.checked;
+	}
+
+	function styleOnChange() {
+		updateStyle();
+		updateUI();
+	}
+
+	style1Elt.addEventListener("change", styleOnChange);
+	style2Elt.addEventListener("change", styleOnChange);
+
+	function updateFontSize() {
+		fontSize = formatFloat(fontSizeElt.value, 0, 0);
+	}
+
+	fontSizeElt.addEventListener("input", function() {
+		fontSizeAutoElt.checked = false;
+		updateFontSize();
+		adjustFontSize();
+		updateQueryParams();
+	});
+
+	function updateFontSizeInput() {
+		fontSizeElt.value = fontSize;
+	}
+
+	fontSizeAutoElt.addEventListener("change", function() {
+		adjustFontSize();
+		updateFontSizeInput();
+		updateQueryParams();
+	});
+
+	function adjustFontSize() {
+		var factor = pornhubElt.offsetWidth / width;
+		if (!isNaN(factor) && isFinite(factor) && factor !== 0) {
+			if (fontSize <= 0) {
+				fontSize = 24 / factor;
+			}
+			var fs = fontSize * factor;
+			if (fontSizeAutoElt.checked) {
+				fs = width / 8 * factor;
+				pornhubElt.style.fontSize = fs + "px";
+				while ((pornhubElt.scrollWidth > pornhubElt.clientWidth || pornhubElt.scrollHeight > pornhubElt.clientHeight) && fs > 0) {
+					pornhubElt.style.fontSize = (fs -= 0.5) + "px";
+				}
+				fs -= pornhubElt.offsetWidth * 0.01;
+				fs = Math.max(0, fs);
+			}
+			pornhubElt.style.fontSize = fs + "px";
+			fontSize = fs / factor;
+		} else {
+			pornhubElt.style.fontSize = 0 + "px";
+			fontSize = 0;
+		}
+		fontSizeElt.placeholder = fontSize;
+	}
+
+	function updateUI() {
+		var aspectRatio = width / height;
+		var activeElement = document.activeElement;
+		var activeElementTop = activeElement ? activeElement.getBoundingClientRect().top : null;
+		pornhubFillElt.style.paddingTop = 1 / aspectRatio * 100 + "%";
+		pornhubWrapperElt.style.maxWidth = pornhubWrapperElt.offsetParent.clientWidth * aspectRatio + "px";
+		if (activeElement) {
+			document.documentElement.scrollTop += document.activeElement.getBoundingClientRect().top - activeElementTop;
+		}
+		if (activeElement !== widthElt && activeElement !== heightElt) {
+			updateWidthHeightInputs();
+		}
+		pornhubElt.classList.toggle("light", lightTheme);
+		pornhubElt.classList.toggle("style-2", style2);
+		adjustFontSize();
+		updateFontSizeInput();
+		updateQueryParams();
+		updateTitle();
+	}
+
+	window.addEventListener("resize", function() {
+		updateUI();
+	});
+
+	function updateText() {
+		var selection = window.getSelection();
+		[pornTextElt, hubTextElt].forEach(function(elt) {
+			var totalText = elt.textContent;
+			var beforeText = "";
+			var selectedText = "";
+			var afterText = totalText;
+			if (document.activeElement === elt) {
+				for (var i = 0; i < selection.rangeCount; i++) {
+					var range = selection.getRangeAt(i);
+					var rangeAncestor = range.commonAncestorContainer;
+					while (rangeAncestor = rangeAncestor.parentNode) {
+						if (rangeAncestor === elt) {
+							var preCaretRange = range.cloneRange();
+							preCaretRange.selectNodeContents(elt);
+							preCaretRange.setEnd(range.startContainer, range.startOffset);
+							beforeText = preCaretRange.toString();
+							selectedText = range.toString();
+							afterText = afterText.substring(beforeText.length + selectedText.length);
+							break;
+						}
+					}
+				}
+			}
+			var newlines = /\r?\n|\r/g;
+			beforeText = beforeText.replace(newlines, "");
+			selectedText = selectedText.replace(newlines, "");
+			afterText = afterText.replace(newlines, "");
+			totalText = beforeText + selectedText + afterText;
+			var textNode = null;
+			while (elt.childNodes.length > (textNode ? 1 : 0)) {
+				if (elt.firstChild.nodeType === 3) {
+					textNode = elt.firstChild;
+				}
+				if (textNode !== elt.lastChild) {
+					elt.removeChild(elt.lastChild);
+				}
+			}
+			if (textNode) {
+				textNode.nodeValue = totalText;
+			} else {
+				textNode = document.createTextNode(totalText);
+				elt.appendChild(textNode);
+			}
+			if (document.activeElement === elt) {
+				selection.removeAllRanges();
+				var newRange = document.createRange();
+				newRange.setStart(textNode, beforeText.length);
+				newRange.setEnd(textNode, beforeText.length + selectedText.length);
+				selection.addRange(newRange);
+			}
+			if (elt === pornTextElt) {
+				pornText = totalText;
+			} else {
+				hubText = totalText;
+			}
+		});
+	}
+
+	function textOnInput() {
+		if (textOnInputTimeout) clearTimeout(textOnInputTimeout);
+		textOnInputTimeout = setTimeout(function() {
+			updateText();
+			adjustFontSize();
+			updateFontSizeInput();
+			updateQueryParams();
+			updateTitle();
+		}, 10);
+	}
+
+	pornTextElt.addEventListener("input", textOnInput);
+	hubTextElt.addEventListener("input", textOnInput);
+
+	/*function textOnKeyDown(e) {
+		if (e.key === "Enter") {
+			e.preventDefault();
+		}
+	}
+
+	pornTextElt.addEventListener("keydown", textOnKeyDown);
+	hubTextElt.addEventListener("keydown", textOnKeyDown);*/
+
+	pornhubElt.addEventListener("click", function(e) {
+		if (e.target !== pornTextElt && e.target !== hubTextElt) {
+			var rect = e.target.getBoundingClientRect();
+			if (style2 ? e.clientY - rect.top < pornhubElt.clientHeight / 2 : e.clientX - rect.left < pornhubElt.clientWidth / 2) {
+				pornTextElt.focus();
+			} else {
+				hubTextElt.focus();
+			}
+			document.execCommand("selectAll", false, null);
+		}
+	});
+
+	function updateFilename() {
+		filename = filenameElt.value;
+	}
+
+	function filenameOnInput() {
+		updateFilename();
+		updateQueryParams();
+	}
+
+	filenameElt.addEventListener("input", filenameOnInput);
+
+	saveBtn.addEventListener("click", function() {
+		var lineHeight = fontSize * 1.25;
+		var horizontalPadding = fontSize * 0.1;
+		var radius = fontSize * 0.1;
+		var pornhubColor = "#aa5cc3";
+		var textColor = !lightTheme ? "#fff" : "#000b25";
+		var bgColor = !lightTheme ? "#000b25" : "transparent";
+		var hubTextColor = !lightTheme ? "#000b25" : "#ffffff";
+		var canvas = document.createElement("canvas");
+		canvas.width = width;
+		canvas.height = height;
+		canvas.style.width = width + "px";
+		canvas.style.height = height + "px";
+		var ctx = canvas.getContext("2d");
+		ctx.fillStyle = bgColor;
+		ctx.fillRect(0, 0, width, height);
+		ctx.translate(width / 2, height / 2);
+		ctx.font = "bold " + fontSize + "px Arial, 'Helvetica Neue', Helvetica, sans-serif";
+		var pornWidth = ctx.measureText(pornText).width;
+		var hubWidth = ctx.measureText(hubText).width;
+		var tm = getTextHeight(ctx.font);
+		var ty = (tm.ascent - tm.descent) / 2;
+		ctx.fillStyle = textColor;
+		ctx.fillText(pornText, -(!style2 ? (pornWidth + hubWidth + horizontalPadding * 2) / 2 : pornWidth / 2), -(!style2 ? 0 : lineHeight / 2) + ty);
+
+		var { x0, y0, x1, y1 } = calculateGradientCoordinate(hubWidth, lineHeight, 125)
+		gr = ctx.createLinearGradient(x0, y0, x1, y1);
+
+		gr.addColorStop(0, "#aa5cc3");
+		gr.addColorStop(1, "#00a4dc");
+		// gr.addColorStop(0, "blue");
+		// gr.addColorStop(1, "red");
+		ctx.fillStyle = gr;
+
+		var x = !style2 ? -((pornWidth + hubWidth + horizontalPadding * 2) / 2) + pornWidth + horizontalPadding : -(hubWidth / 2 + horizontalPadding);
+		var y = !style2 ? -lineHeight / 2 : 0;
+		var w = hubWidth + horizontalPadding * 2;
+		ctx.beginPath();
+		ctx.moveTo(x, y + radius);
+		ctx.lineTo(x, y + lineHeight - radius);
+		ctx.arcTo(x, y + lineHeight, x + radius, y + lineHeight, radius);
+		ctx.lineTo(x + w - radius, y + lineHeight);
+		ctx.arcTo(x + w, y + lineHeight, x + w, y + lineHeight - radius, radius);
+		ctx.lineTo(x + w, y + radius);
+		ctx.arcTo(x + w, y, x + w - radius, y, radius);
+		ctx.lineTo(x + radius, y);
+		ctx.arcTo(x, y, x, y + radius, radius);
+		ctx.fill();
+		ctx.fillStyle = hubTextColor;
+		ctx.fillText(hubText, !style2 ? -((pornWidth + hubWidth + horizontalPadding * 2) / 2) + pornWidth + horizontalPadding * 2 : -(hubWidth / 2), (!style2 ? 0 : lineHeight / 2) + ty);
+		document.body.appendChild(canvas);
+		download(canvas, filename || defaultParams.filename);
+		document.body.removeChild(canvas);
+	});
+
+	function hideTip() {
+		tipElt.style.height = tipElt.scrollHeight + "px";
+		tipElt.classList.add("tip-hidden");
+		requestAnimationFrame(function() {
+			tipElt.style.height = 0 + "px";
+		});
+		tipElt.removeEventListener("click", tipOnClick);
+	}
+
+	pornTextElt.addEventListener("focus", hideTip);
+	hubTextElt.addEventListener("focus", hideTip);
+
+	function tipOnClick() {
+		hideTip();
+		setTimeout(function() {
+			pornTextElt.focus();
+			document.execCommand("selectAll", false, null);
+		}, 500);
+	}
+
+	tipElt.addEventListener("click", tipOnClick);
+
+	var updateTitle = (function() {
+		var initialTitle = document.title;
+		var initialText = defaultParams.pornText + defaultParams.hubText;
+		return function() {
+			var text = pornTextElt.textContent + hubTextElt.textContent;
+			document.title = (text !== initialText ? text + " - " : "") + initialTitle;
+		};
+	})();
+
+	setFromQueryParams();
+
+})();
+
+/**
+ * @description: 计算canvas渐变起始坐标
+ * @param {number} canvas width
+ * @param {number} canvas height
+ * @param {number} angle 角度
+ * @return {*}
+ */
+ function calculateGradientCoordinate(
+  width,
+  height,
+  angle = 180,
+) {
+  if (angle >= 360) angle = angle - 360;
+  if (angle < 0) angle = angle + 360;
+  angle = Math.round(angle);
+
+  // 当渐变轴垂直于矩形水平边上的两种结果
+  if (angle === 0) {
+    return {
+      x0: Math.round(width / 2),
+      y0: height,
+      x1: Math.round(width / 2),
+      y1: 0,
+    };
+  }
+  if (angle === 180) {
+    return {
+      x0: Math.round(width / 2),
+      y0: 0,
+      x1: Math.round(width / 2),
+      y1: height,
+    };
+  }
+
+  // 当渐变轴垂直于矩形垂直边上的两种结果
+  if (angle === 90) {
+    return {
+      x0: 0,
+      y0: Math.round(height / 2),
+      x1: width,
+      y1: Math.round(height / 2),
+    };
+  }
+  if (angle === 270) {
+    return {
+      x0: width,
+      y0: Math.round(height / 2),
+      x1: 0,
+      y1: Math.round(height / 2),
+    };
+  }
+
+  // 从矩形左下角至右上角的对角线的角度
+  const alpha = Math.round(
+    (Math.asin(width / Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2))) *
+      180) /
+      Math.PI,
+  );
+
+  // 当渐变轴分别于矩形的两条对角线重合情况下的四种结果
+  if (angle === alpha) {
+    return {
+      x0: 0,
+      y0: height,
+      x1: width,
+      y1: 0,
+    };
+  }
+  if (angle === 180 - alpha) {
+    return {
+      x0: 0,
+      y0: 0,
+      x1: width,
+      y1: height,
+    };
+  }
+  if (angle === 180 + alpha) {
+    return {
+      x0: width,
+      y0: 0,
+      x1: 0,
+      y1: height,
+    };
+  }
+  if (angle === 360 - alpha) {
+    return {
+      x0: width,
+      y0: height,
+      x1: 0,
+      y1: 0,
+    };
+  }
+
+  // 以矩形的中点为坐标原点，向上为Y轴正方向，向右为X轴正方向建立直角坐标系
+  let x0 = 0,
+    y0 = 0,
+    x1 = 0,
+    y1 = 0;
+
+  // 当渐变轴与矩形的交点落在水平线上
+  if (
+    angle < alpha || // 处于第一象限
+    (angle > 180 - alpha && angle < 180) || // 处于第二象限
+    (angle > 180 && angle < 180 + alpha) || // 处于第三象限
+    angle > 360 - alpha // 处于第四象限
+  ) {
+    // 将角度乘以（PI/180）即可转换为弧度
+    const radian = (angle * Math.PI) / 180;
+    // 当在第一或第四象限，y是height / 2，否则y是-height / 2
+    const y = angle < alpha || angle > 360 - alpha ? height / 2 : -height / 2;
+    const x = Math.tan(radian) * y;
+    // 当在第一或第二象限，l是width / 2 - x，否则l是-width / 2 - x
+    const l =
+      angle < alpha || (angle > 180 - alpha && angle < 180)
+        ? width / 2 - x
+        : -width / 2 - x;
+    const n = Math.pow(Math.sin(radian), 2) * l;
+    x1 = x + n;
+    y1 = y + n / Math.tan(radian);
+    x0 = -x1;
+    y0 = -y1;
+  }
+
+  // 当渐变轴与矩形的交点落在垂直线上
+  if (
+    (angle > alpha && angle < 90) || // 处于第一象限
+    (angle > 90 && angle < 180 - alpha) || // 处于第二象限
+    (angle > 180 + alpha && angle < 270) || // 处于第三象限
+    (angle > 270 && angle < 360 - alpha) // 处于第四象限
+  ) {
+    // 将角度乘以（PI/180）即可转换为弧度
+    const radian = ((90 - angle) * Math.PI) / 180;
+    // 当在第一或第二象限，x是width / 2，否则x是-width / 2
+    const x =
+      (angle > alpha && angle < 90) || (angle > 90 && angle < 180 - alpha)
+        ? width / 2
+        : -width / 2;
+    const y = Math.tan(radian) * x;
+    // 当在第一或第四象限，l是height / 2 - y，否则l是-height / 2 - y
+    const l =
+      (angle > alpha && angle < 90) || (angle > 270 && angle < 360 - alpha)
+        ? height / 2 - y
+        : -height / 2 - y;
+    const n = Math.pow(Math.sin(radian), 2) * l;
+    x1 = x + n / Math.tan(radian);
+    y1 = y + n;
+    x0 = -x1;
+    y0 = -y1;
+  }
+
+  // 坐标系更改为canvas标准，Y轴向下为正方向
+  x0 = Math.round(x0 + width / 2);
+  y0 = Math.round(height / 2 - y0);
+  x1 = Math.round(x1 + width / 2);
+  y1 = Math.round(height / 2 - y1);
+
+  return { x0, y0, x1, y1 };
+}
+		</script>
+
+	
+
+
+</body></html>

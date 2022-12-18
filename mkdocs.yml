@@ -1,0 +1,59 @@
+
+# Site information
+site_name: MetaTube
+site_url: https://metatube-community.github.io/
+site_author: Jason Lyu
+site_description: MetaTube Community
+
+# Repository
+repo_name: Jellyfin.Plugin.MetaTube
+repo_url: https://github.com/metatube-community/jellyfin-plugin-metatube
+
+# Copyright as footer description
+copyright: Developed and maintained by MetaTube members with ❤️
+
+theme:
+  name: material
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - navigation.sections
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+  logo: images/logo-vertical-dark.png
+  favicon: favicon.ico
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extra settings
+extra:
+  # generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/metatube-community
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/metatube/metatube-server
+
+# Page tree
+# nav:
+#   - MetaTube: README.md
+#   - Wiki:
+#     - wiki/README.md
