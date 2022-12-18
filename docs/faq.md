@@ -4,7 +4,7 @@
 
 请先确保：
 
-1. Jellyfin/Emby均为**最新的**稳定版，看[这里](https://github.com/metatube-community/jellyfin-plugin-metatube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85#%E5%AE%89%E8%A3%85%E4%B9%8B%E5%89%8D)。
+1. Jellyfin/Emby均为**最新的**稳定版，看[这里](./wiki/plugin-installation.md)。
 2. 插件目录放对。
 3. 插件权限正确（权限不对日志会报错`Permission Denied`）。
 
@@ -15,13 +15,13 @@
 
 ## Q：如何配置代理？
 
-参阅[关于代理](https://github.com/metatube-community/jellyfin-plugin-metatube/wiki/%E5%85%B3%E4%BA%8E%E4%BB%A3%E7%90%86)。
+参阅[代理配置](./wiki/proxy-configuration.md)。
 
 ## Q：为什么有些影片刮不出来？
 
-MetaTube支持二十多个官方数据源，基本涵盖了所有JAV的范畴，所以很少存在由于数据源匹配不到的问题。
+MetaTube支持二十多个官方数据源，基本涵盖了所有影片的范畴，所以很少存在由于数据源匹配不到的问题。
 
-1. 确保文件命名规范且正确，参考[命名规范](https://github.com/metatube-community/jellyfin-plugin-metatube/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)。
+1. 确保文件命名规范且正确，参考[命名规范](./wiki/naming-rules.md)。
 2. 确保网络正常没有炸。
 3. 仍然刮不到可以去官网找一下源影片是否存在。
 4. 如果官网都找不到，那就只能手动添加数据了。
@@ -56,8 +56,8 @@ Plex官方即将取消插件支持，所以应该不会开发Plex插件。
 2. 填对正确的API Key等信息。
 3. 看Jellyfin/Emby日志报错信息。
 
-## Q：为什么搜不出`19xx`和`20xx`结尾的番号？
+## Q：为什么搜不出`19xx`和`20xx`结尾的品番？
 
-这是个Emby的bug，它会把这些数字识别成年份，插件无法正确获得完整的番号最终导致刮削失败。
+这是个Emby的bug，它会把这些数字识别成年份，插件无法正确获得完整的品番最终导致刮削失败。
 
-解决办法：手动搜索时在番号后面加上`#`，例如：`MXGS-1997#`。
+解决办法：手动搜索时在品番后面加上`#`，例如：`MXGS-1997#`。
