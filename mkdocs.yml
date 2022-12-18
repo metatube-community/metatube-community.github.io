@@ -7,7 +7,8 @@ site_description: MetaTube Community
 
 # Repository
 repo_name: Jellyfin.Plugin.MetaTube
-repo_url: https://github.com/metatube-community/jellyfin-plugin-metatube
+repo_url: https://github.com/metatube-community/jellyfin-plugin-metatube/
+edit_uri: https://github.com/metatube-community/metatube-community.github.io/blob/main/docs/
 
 # Copyright as footer description
 copyright: Developed and maintained by MetaTube members with ❤️
