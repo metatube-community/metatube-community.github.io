@@ -20,8 +20,8 @@
 - `{maker}`: メーカー
 - `{label}`: レーベル
 - `{director}`: 导演
-- `{actors}`: （所有）女优
-- `{first_actor}`: （第一个）女优
+- `{actors}`: （所有）演员
+- `{first_actor}`: （第一个）演员
 - `{year}`: 发行年份
 - `{month}`: 发行月份
 - `{date}`: 发行日期

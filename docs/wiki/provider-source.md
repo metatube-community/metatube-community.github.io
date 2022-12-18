@@ -2,7 +2,9 @@
 
 MetaTube 支持的刮削源如下：
 
-- [`10musume`](https://www.10musume.com/)
+> WIP
+
+<!-- - [`10musume`](https://www.10musume.com/)
 - [`1Pondo`](https://www.1pondo.tv/)
 - [`AirAV`](https://www.airav.wiki/)
 - [`ARZON`](https://www.arzon.jp/)
@@ -33,6 +35,6 @@ MetaTube 支持的刮削源如下：
 - [`SOD`](https://ec.sod.co.jp/prime/)
 - [`TOKYO-HOT`](https://my.tokyo-hot.com/)
 - [`XsList`](https://xslist.org/)
-- [`XXX-AV`](https://www.xxx-av.com/)
+- [`XXX-AV`](https://www.xxx-av.com/) -->
 
 > PS：刮削源尽量遵守以官方数据源为主的原则，第三方提供源通常存在数据不准确或是数据缺失的问题。
