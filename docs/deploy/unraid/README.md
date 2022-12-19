@@ -2,7 +2,7 @@
 
 > Unraid is a proprietary Linux-based operating system designed to run on home media server setups that operates as a network-attached storage device, application server, and virtualization host.
 
-**注意**: 以下教程使用Unraid部署服务端，但由于没有开启`HTTPS`，会导致在`Emby`下手动**识别**时无法加载预览图片的情况发生，但并不影响使用。
+**注意**: 以下教程使用Unraid部署服务端，由于没有开启`HTTPS`，会导致在`Emby`下手动**识别**时无法加载预览图片的情况发生，但并不影响使用。
 
 ## 具体步骤
 
