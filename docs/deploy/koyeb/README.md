@@ -27,7 +27,7 @@
 
 ![name](images/name.png)
 
-- 选择`Docker`，并在Docker image下输入：`docker.io/metaube/metaube-server:latest`。
+- 选择`Docker`，并在Docker image下输入：`docker.io/metaube/metatube-server:latest`。
 
 ![docker](images/docker.png)
 
