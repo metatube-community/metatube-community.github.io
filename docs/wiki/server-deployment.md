@@ -68,6 +68,10 @@ docker rm metatube
 
 ~~都用树莓派了，跑个Docker应该不需要教程吧~~
 
+### Unraid部署(★★☆)
+
+参考：[Unraid 快速部署](../deploy/unraid/README.md)
+
 ### Synology部署(★★☆)
 
 参考：[这篇教程](https://www.baozhiqiang.xyz/index.php/archives/32/)
@@ -82,7 +86,7 @@ docker rm metatube
 - 不需要给后端配置代理，且使用美国IP，刮削限制少。
 - 自动支持HTTPS，可以避免如Emby下图片加载的问题。
 
-请看：[Heroku一键部署](../deploy/heroku/README.md)
+参考：[Heroku 一键部署](../deploy/heroku/README.md)
 
 ### Koyeb部署(★★☆)
 
@@ -91,7 +95,7 @@ docker rm metatube
 - 永久免费🆓（只要不倒闭）。
 - 自动支持HTTPS。
 
-请看：[Koyeb快速部署](../deploy/koyeb/README.md)
+参考：[Koyeb 快速部署](../deploy/koyeb/README.md)
 
 ## 参数配置
 

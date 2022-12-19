@@ -1,4 +1,4 @@
-# 部署到 UNRAID
+# Unraid 快速部署
 
 > Unraid is a proprietary Linux-based operating system designed to run on home media server setups that operates as a network-attached storage device, application server, and virtualization host.
 
