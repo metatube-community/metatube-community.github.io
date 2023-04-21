@@ -49,7 +49,7 @@ extra:
   # generator: false
   analytics:
     provider: cloudflare
-    property: c5351f010d5849b893eef1cb8a1c55d0
+    property: !ENV CLOUDFLARE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/metatube-community
