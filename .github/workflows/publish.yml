@@ -16,4 +16,6 @@ jobs:
           git config --global user.name  'metatube-bot'
           git config --global user.email 'metatube-bot@users.noreply.github.com'
       - run: pip install mkdocs-material mkdocs-minify-plugin jieba
-      - run: mkdocs gh-deploy --force
+      - env:
+          CLOUDFLARE_ANALYTICS_KEY: ${{ secrets.CLOUDFLARE_ANALYTICS_KEY }}
+        run: mkdocs gh-deploy --force
