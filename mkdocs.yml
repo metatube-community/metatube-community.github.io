@@ -33,6 +33,7 @@ theme:
     - navigation.sections
     - search.highlight
     - content.tabs.link
+    - content.code.copy
   icon:
     repo: fontawesome/brands/github
   logo: images/logo-vertical-dark.png
