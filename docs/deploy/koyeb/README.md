@@ -23,11 +23,11 @@
 
 ![create-app](images/create-app.png)
 
-- 输入App名字，例如`metaube`，然后点击`Next`。
+- 输入App名字，例如`metatube`，然后点击`Next`。
 
 ![name](images/name.png)
 
-- 选择`Docker`，并在Docker image下输入：`docker.io/metaube/metatube-server:latest`。
+- 选择`Docker`，并在Docker image下输入：`docker.io/metatube/metatube-server:latest`。
 
 ![docker](images/docker.png)
 
@@ -35,7 +35,7 @@
 
 ![token](images/token.png)
 
-- 继续拉到底部，`Region`地区选择`par`，在Service name里输入`metaube`，点击`Create service`，然后等待完成部署。
+- 继续拉到底部，`Region`地区选择`par`，在Service name里输入`metatube`，点击`Create service`，然后等待完成部署。
 
 > 目前Koyeb只有巴黎地区可选，若后续有其他北美或者亚洲地区可用，建议更换至离日本较近的区域，如新加坡等。
 
