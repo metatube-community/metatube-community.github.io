@@ -10,14 +10,14 @@ MetaTube 插件对于以下几种情况，会自动为影片添加`中文字幕`
 例如：
 
 - `XXX-yyy`
-  - `XXX-yyy-C.mp4`
+    - `XXX-yyy-C.mp4`
 - `XXXX-yyy-C`
-  - `XXXX-yyy_ch.mp4`
-  - `XXXX-yyy-C.mp4`
+    - `XXXX-yyy_ch.mp4`
+    - `XXXX-yyy-C.mp4`
 - `XXX-yyy`
-  - `XXX-yyy.mp4`
-  - `XXX-yyy.chs.ass`
-  - `XXX-yyy.chs.srt`
+    - `XXX-yyy.mp4`
+    - `XXX-yyy.chs.ass`
+    - `XXX-yyy.chs.srt`
 
 另外，这样的外挂字幕是**不被识别成中文字幕**的：
 

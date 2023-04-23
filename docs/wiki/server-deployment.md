@@ -122,10 +122,10 @@ docker rm metatube
 ### 关于`DSN`
 
 - SQLite
-  - 当传入的是文件名（如`library.db`）等字符串时，则会使用sqlite作为数据库引擎。
-  - 默认使用`file::memory:?cache=shared`为参数的sqlite内存模式，但是数据非永久。
+    - 当传入的是文件名（如`library.db`）等字符串时，则会使用sqlite作为数据库引擎。
+    - 默认使用`file::memory:?cache=shared`为参数的sqlite内存模式，但是数据非永久。
 - PostgresSQL
-  - 如果传入的是`^postgres(ql)?://`开头的链接，则会使用postgres作为数据库引擎。
+    - 如果传入的是`^postgres(ql)?://`开头的链接，则会使用postgres作为数据库引擎。
 
 > DSN 留空服务端则会默认使用sqlite内存模式，这当然是最简单的使用方式。但是如果关闭服务端，那么之前**服务端**爬取以及保存的所有数据也都会消失。（Jellyfin/Emby已经刮削的数据当然不会消失）
 >
