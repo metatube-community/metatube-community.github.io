@@ -1,8 +1,8 @@
 # Site information
 site_name: MetaTube
 site_url: https://metatube-community.github.io/
-site_author: Jason Lyu
-site_description: MetaTube Community
+site_author: MetaTube Community
+site_description: MetaTube User Manual & Wiki
 
 # Repository
 repo_name: Jellyfin.Plugin.MetaTube
