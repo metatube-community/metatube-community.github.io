@@ -64,6 +64,16 @@ docker stop metatube
 docker rm metatube
 ```
 
+### Docker-Compose部署(★★☆)
+
+> 请确保部署平台已有Docker、Docker-compose环境
+
+```sh
+mkdir metatube-sdk-go && cd metatube-sdk-go
+curl -sL https://raw.githubusercontent.com/metatube-community/metatube-sdk-go/main/docker-compose.yml -o docker-compose.yml
+docker-compose up -d
+```
+
 ### Raspberry Pi部署(★★☆)
 
 ~~都用树莓派了，跑个Docker应该不需要教程吧~~
