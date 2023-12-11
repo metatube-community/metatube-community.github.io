@@ -4,13 +4,13 @@
 
 请先确保：
 
-1. Jellyfin/Emby均为**最新的**稳定版，看[这里](./wiki/plugin-installation.md)。
+1. Jellyfin/Emby/Plex 均为**最新的**稳定版，看[这里](./wiki/plugin-installation.md)。
 2. 插件目录放对。
 3. 插件权限正确（用户权限，执行权限等；权限不对日志会报错`Permission Denied`）。
 
 还是不行：
 
-1. 看一下Jellyfin/Emby的日志具体报错。
+1. 看一下 Jellyfin/Emby/Plex 的日志具体报错。
 2. 再不行，Issues报告BUG。
 
 ## Q：如何配置代理？
@@ -47,7 +47,9 @@ MetaTube支持二十多个官方数据源，基本涵盖了所有影片的范畴
 
 > June 2022 Update: Plex is phasing out plugins — especially those that require UI support or play content (like streaming plugins). Plex’s representative couldn’t give me an exact date when plugin support would be removed completely but told me that you should no longer rely on plugins to work. I will keep testing and update this page when I know more.
 
-Plex官方即将取消插件支持，所以应该不会开发Plex插件。
+~~Plex官方即将取消插件支持，所以应该不会开发Plex插件。~~
+
+已支持 Plex 插件：[MetaTube.bundle](https://github.com/metatube-community/MetaTube.bundle)
 
 ## Q：为什么翻译不出来？
 
@@ -55,7 +57,7 @@ Plex官方即将取消插件支持，所以应该不会开发Plex插件。
 
 1. 选择正确的翻译模式，不能是`Disabled`。
 2. 填对正确的API Key等信息。
-3. 看Jellyfin/Emby日志报错信息。
+3. 看 Jellyfin/Emby/Plex 日志报错信息。
 
 ## Q：为什么搜不出`19xx`和`20xx`结尾的品番？
 

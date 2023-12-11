@@ -34,6 +34,7 @@ Full documentation and examples can be found at [Wiki](./wiki/README.md).
 
 - Jellyfin will automatically update plugin as long as you install it via repo url.
 - Emby's MetaTube uses scheduled tasks to check for and download updates, if any available.
+- Plex plugin needs to be updated manually.
 
 *A restart is required to apply plugin updates.*
 
@@ -43,8 +44,8 @@ Full documentation and examples can be found at [Wiki](./wiki/README.md).
 - Input server url and server token (if any).
 - Go to movie library:
 
-  - Select the `Movie` type.
-  - Check `MetaTube` as Metadata and Image provider.
+    - Select the `Movie` type.
+    - Check `MetaTube` as Metadata and Image provider.
 
 ## Usage
 

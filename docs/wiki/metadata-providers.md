@@ -2,7 +2,7 @@
 
 MetaTube 支持的刮削源如下：
 
-> WIP
+- <https://github.com/metatube-community/metatube-sdk-go/tree/main/provider>
 
 <!-- - [`10musume`](https://www.10musume.com/)
 - [`1Pondo`](https://www.1pondo.tv/)

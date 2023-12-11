@@ -2,9 +2,11 @@
 
 ## 工作原理
 
-MetaTube的预告功能基于[strm文件](https://support.emby.media/support/solutions/articles/44001159147-strm-files)实现，此功能会在影片目录下生成一个`trailers`文件夹以及相应的`.strm`预告文件，文件大小通常不会超过100个字节，因为文件本身只包含一个预告链接，所以几乎不会占用本地空间容量。
+MetaTube for Jellyfin/Emby 的预告功能基于[strm文件](https://support.emby.media/support/solutions/articles/44001159147-strm-files)实现，此功能会在影片目录下生成一个`trailers`文件夹以及相应的`.strm`预告文件，文件大小通常不会超过100个字节，因为文件本身只包含一个预告链接，所以几乎不会占用本地空间容量。
 
-由于Jellyfin/Emby自身实现原因，它们内置的在线预告仅支持播放YouTube的链接格式，但是由于MetaTube影片及其预告的特殊性，均不可能通过YouTube链接去支持。所以目前似乎没有比使用`.strm`文件更加优雅的方式来支持在线预告的功能。
+由于 Jellyfin/Emby 自身实现原因，它们内置的在线预告仅支持播放YouTube的链接格式，但是由于MetaTube影片及其预告的特殊性，均不可能通过YouTube链接去支持。所以目前似乎没有比使用`.strm`文件更加优雅的方式来支持在线预告的功能。
+
+> MetaTube for Plex 原生支持在线预告，仅需在设置中开启即可，以下内容仅针对 Jellyfin/Emby 插件。
 
 ## 使用方法
 

@@ -13,3 +13,7 @@ dotnet build --configuration Release
 ```shell
 dotnet build --configuration Release.Emby
 ```
+
+## Plex
+
+Plex 插件无需编译

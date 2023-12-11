@@ -2,9 +2,9 @@
 
 ## 安装之前
 
-请先确保当前的Jellyfin/Emby为**最新的**稳定版本，因为作者开发精力有限且Jellyfin/Emby的测试版本存在诸多不稳定性，所以本插件现在不会日后也不会提前支持这两个平台的beta版本。
+请先确保当前的 Jellyfin/Emby/Plex 为**最新的**稳定版本，因为作者开发精力有限且 Jellyfin/Emby/Plex 的测试版本存在诸多不稳定性，所以本插件现在不会日后也不会提前支持这两个平台的beta版本。
 
-在Jellyfin/Emby的beta测试版本中出现的插件无法识别，插件无法使用等问题，请勿在Issue中提问，亦不做任何解答，望谅解。
+在 Jellyfin/Emby/Plex 的beta测试版本中出现的插件无法识别，插件无法使用等问题，请勿在Issue中提问，亦不做任何解答，望谅解。
 
 ## Jellyfin
 
@@ -24,6 +24,12 @@ _适用于中国大陆的存储库URL：[`https://cdn.jsdelivr.net/gh/metatube-c
 4. 重启 Emby 服务
 
 PS：Emby 后续插件更新由计划任务在后台自动完成。
+
+## Plex
+
+如何找到 Plex 插件目录请参考：<https://support.plex.tv/articles/201106098-how-do-i-find-the-plug-ins-folder/>
+
+1. xx
 
 ## 目录
 
