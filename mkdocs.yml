@@ -45,6 +45,10 @@ plugins:
   - minify:
       minify_html: true
 
+# Extensions
+markdown_extensions:
+  - pymdownx.tilde
+
 # Extra settings
 extra:
   # generator: false
