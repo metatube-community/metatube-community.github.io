@@ -28,4 +28,4 @@
 - **OpenAI**: `openai-api-key=XXX`
 - **Baidu**: `baidu-app-id=XXX,baidu-app-key=XXX`
 
-> `XXX`即为相关的参数值。
+> `XXX`即为相关的参数值，参数之间使用逗号分隔。
