@@ -23,9 +23,9 @@
 
 在 Plex 中使用以下翻译引擎需要在`Translation engine parameters`配置中手动填入相关参数：
 
-- **Google**: `google-api-key=<XXX>`
-- **DeepL**: `deepl-api-key=<XXX>`
-- **OpenAI**: `openai-api-key=<XXX>`
-- **Baidu**: `baidu-app-id=<XXX>&baidu-app-key=<XXX>`
+- **Google**: `google-api-key=XXX`
+- **DeepL**: `deepl-api-key=XXX`
+- **OpenAI**: `openai-api-key=XXX`
+- **Baidu**: `baidu-app-id=XXX,baidu-app-key=XXX`
 
-> `<XXX>`即为相关的参数值。
+> `XXX`即为相关的参数值。
