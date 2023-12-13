@@ -9,7 +9,9 @@
 - Disabled：禁用翻译
 - Title：翻译标题
 - Summary：翻译简介
-- Title and Summary：全部翻译
+- Reviews：翻译评论（仅 Plex）
+- Title and Summary：翻译标题和简介
+- Title, Summary and Reviews：全部翻译（仅 Plex）
 
 > PS：选择需要的翻译引擎，百度翻译准确度高但是有一定的翻译限制，谷歌翻译速度快限制少但是准确性略低。部分翻译引擎需要提供对应的API密钥等。
 
