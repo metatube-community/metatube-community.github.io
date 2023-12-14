@@ -31,3 +31,12 @@
 - **Baidu**: `baidu-app-id=XXX,baidu-app-key=XXX`
 
 > `XXX`即为相关的参数值，参数之间使用逗号分隔。
+
+如果需要特别指定 Plex 语言库中没有的语言，例如繁体中文/粤语等，可以参考翻译引擎支持的语言填写`to`参数，例如：
+
+- **使用百度翻译需要的语言成粤语**: `baidu-app-id=XXX&baidu-app-key=XXX&to=yue`
+- **使用百度翻译需要的语言成繁体中文**: `baidu-app-id=XXX&baidu-app-key=XXX&to=cht`
+
+百度翻译语言支持列表参见：<https://api.fanyi.baidu.com/api/trans/product/apidoc#languageList>
+
+其他的翻译引擎同理，请自行查阅相关文档。
