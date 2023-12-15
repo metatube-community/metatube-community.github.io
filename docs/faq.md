@@ -49,7 +49,7 @@ MetaTube支持二十多个官方数据源，基本涵盖了所有影片的范畴
 
 ~~Plex官方即将取消插件支持，所以应该不会开发Plex插件。~~
 
-已支持 Plex 插件：[MetaTube.bundle](https://github.com/metatube-community/MetaTube.bundle)
+已支持 Plex 插件：[MetaTube.bundle](https://github.com/metatube-community/metatube-plex-plugins)
 
 ## Q：为什么翻译不出来？
 

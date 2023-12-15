@@ -29,9 +29,9 @@ PS：Emby 后续插件更新由计划任务在后台自动完成。
 
 如何找到 Plex 插件目录请参考：<https://support.plex.tv/articles/201106098-how-do-i-find-the-plug-ins-folder/>
 
-1. 从 [GitHub](https://github.com/metatube-community/MetaTube.bundle/archive/refs/heads/main.zip) 或 [Releases](https://github.com/metatube-community/MetaTube.bundle/releases) 下载最新的插件 zip 文件
-2. 解压 zip 文件并确保解压出来的文件夹的名称叫 `MetaTube.bundle`，如果不是请手动重命名
-3. 将 `MetaTube.bundle` 文件夹移入Plex 插件目录的根目录
+1. 从 [GitHub](https://github.com/metatube-community/metatube-plex-plugins/archive/refs/heads/main.zip) 或 [Releases](https://github.com/metatube-community/metatube-plex-plugins/releases) 下载最新的插件 zip 文件
+2. 将解压后的 `MetaTube.bundle` 文件夹移入 Plex 插件目录的根目录
+3. 其中文件夹 `MetaTubeHelper.bundle` 为辅助插件，可选择性安装
 4. 重启 Plex 服务
 
 ## 目录
