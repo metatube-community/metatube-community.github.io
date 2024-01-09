@@ -1,6 +1,10 @@
 # Mogenius 快速部署
 
-参考本教程快速将`MetaTube`后端**免费**部署至[`Mogenius`](https://mogenius.com/)云平台。
+## ‼️置顶
+
+Mogenius 不再提供免费额度。
+
+~~参考本教程快速将`MetaTube`后端**免费**部署至[`Mogenius`](https://mogenius.com/)云平台。~~
 
 ## 具体步骤
 
