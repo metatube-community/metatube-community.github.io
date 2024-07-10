@@ -21,6 +21,19 @@
 
 > PS：开启翻译前刮削的所有影片依旧为原来的语言，如有需要可以手动刷新元数据更新。
 
+## 翻译引擎参数（兼容OpenAI API的大模型）
+
+- 在插件端选择OpenAI为翻译引擎，并配置 API_KEY
+
+- 在服务端添加环境变量，配置大模型相关参数
+
+    | 环境变量 | 解释 | 例子 |
+    |----------|----------|----------|
+    | **OPENAI_BASE_URL** | API地址 | https://api.deepseek.com/v1 |
+    | **OPENAI_MODEL** | 模型名称 | deepseek-chat |
+    | **OPENAI_TEMPERATURE** | 模型参数-温度 | 1.1 |
+
+
 ## 翻译引擎参数（Plex）
 
 在 Plex 中使用以下翻译引擎需要在`Translation engine parameters`配置中手动填入相关参数：
