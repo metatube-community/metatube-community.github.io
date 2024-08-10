@@ -12,7 +12,7 @@
 
 例如：
 
-- http://<METATUBE_SERVER>/v1/providers
+- http://METATUBE_SERVER/v1/providers
 
 ## 调整刮削源优先级
 
