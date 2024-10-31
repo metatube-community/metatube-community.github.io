@@ -10,13 +10,13 @@ hide:
 
 English | [简体中文](README_ZH.md)
 
------
+---
 
 **Documentation**: [https://metatube-community.github.io](https://metatube-community.github.io)
 
 **Community Link**: [https://github.com/metatube-community](https://github.com/metatube-community)
 
------
+---
 
 ## How it works
 
@@ -36,16 +36,15 @@ Full documentation and examples can be found at [Wiki](./wiki/README.md).
 - Emby's MetaTube uses scheduled tasks to check for and download updates, if any available.
 - Plex plugin needs to be updated manually.
 
-*A restart is required to apply plugin updates.*
+_A restart is required to apply plugin updates._
 
 ### Configuration
 
 - Locate MetaTube plugin configuration page.
 - Input server url and server token (if any).
 - Go to movie library:
-
-    - Select the `Movie` type.
-    - Check `MetaTube` as Metadata and Image provider.
+  - Select the `Movie` type.
+  - Check `MetaTube` as Metadata and Image provider.
 
 ## Usage
 
@@ -57,7 +56,7 @@ Full documentation and examples can be found at [Wiki](./wiki/README.md).
 
 MetaTube integrates Actor Providers and is able to automatically search and identify actors by their names. You don't need to do any configuration to make it work, it already works like a charm!
 
-For now, [`GFriends`](https://github.com/xinxin8816/gfriends) and [`XsList`](https://xslist.org/zh) are used as sources to provide actor information and images.
+For now, [`GFriends`](https://github.com/gfriends/gfriends) and [`AV-LEAGUE`](https://www.av-league.com/) are used as sources to provide actor information and images.
 
 ### Suggestions
 
