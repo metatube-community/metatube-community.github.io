@@ -41,8 +41,6 @@ Docker镜像发布于：
 
 ### Docker部署(★★☆)
 
-Docker
-
 > 请确保部署平台已有Docker环境，否则请先安装[Docker](https://docs.docker.com/get-docker/)
 
 直接运行以下任意一条命令即可：
@@ -64,14 +62,6 @@ docker run -d -p 8080:8080 -v $PWD/config:/config --name metatube metatube/metat
 ```sh
 docker stop metatube
 docker rm metatube
-```
-
-Docker Compose
-
-```sh
-mkdir metatube-sdk-go && cd metatube-sdk-go
-curl -sL https://raw.githubusercontent.com/metatube-community/metatube-sdk-go/main/docker-compose.yaml  -o docker-compose.yml
-docker compose up -d
 ```
 
 ### Docker-Compose部署(★★☆)
