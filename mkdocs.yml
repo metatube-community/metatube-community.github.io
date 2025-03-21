@@ -59,7 +59,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/metatube-community
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/metatube/metatube-server
+      link: https://github.com/metatube-community/metatube-sdk-go/pkgs/container/metatube-server
 
 # Page tree
 # nav:

@@ -1,6 +1,6 @@
 # Mogenius 快速部署
 
-## ‼️置顶
+## ‼️ 置顶
 
 Mogenius 不再提供免费额度。
 
@@ -8,7 +8,7 @@ Mogenius 不再提供免费额度。
 
 ## 具体步骤
 
-> 以下步骤需要有Mogenius账号，没有账号的需要先[注册](https://studio.mogenius.com/user/registration)。
+> 以下步骤需要有 Mogenius 账号，没有账号的需要先[注册](https://studio.mogenius.com/user/registration)。
 
 ### 部署服务
 
@@ -16,7 +16,7 @@ Mogenius 不再提供免费额度。
 
 ![create](./images/1.png)
 
-- 如图输入项目名称，默认使用Free计划，然后点击`Create now`
+- 如图输入项目名称，默认使用 Free 计划，然后点击`Create now`
 
 ![now](./images/2.png)
 
@@ -24,7 +24,7 @@ Mogenius 不再提供免费额度。
 
 ![add](./images/3.png)
 
-- 分别输入服务名称，然后输入镜像地址：`metatube/metatube-server:latest`
+- 分别输入服务名称，然后输入镜像地址：`ghcr.io/metatube-community/metatube-server:latest`
 
 ![name and images](./images/4.png)
 
@@ -32,7 +32,7 @@ Mogenius 不再提供免费额度。
 
 ![resources](./images/5.png)
 
-- 输入8080，然后点击`Create Service`
+- 输入 8080，然后点击`Create Service`
 
 ![service](./images/6.png)
 
@@ -42,6 +42,6 @@ Mogenius 不再提供免费额度。
 
 - 将`hostname`粘贴到插件配置页面。
 
-**注意**：如下图所示，这里需要将原来复制的hostname最后的`:80`端口号删掉，并在最前面加上`https://`
+**注意**：如下图所示，这里需要将原来复制的 hostname 最后的`:80`端口号删掉，并在最前面加上`https://`
 
 ![plugin](./images/8.png)
