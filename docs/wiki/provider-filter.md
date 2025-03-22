@@ -2,25 +2,15 @@
 
 ## 过滤与排序
 
-新版插件支持根据刮削源结果重新过滤与排序。在插件配置页面中配置`Movie provider filter`，例如：
-
-<!-- ### 默认刮削顺序
-
-- `FANZA,Caribbeancom,FC2,Pcolle,1Pondo,10musume,KIN8,C0930,H0930,H4610,MYWIFE,MGS,XXX-AV,Gcolle,Getchu,PACOPACOMAMA,MURAMURA,HeyDouga,HEYZO,CaribbeancomPR,PRESTIGE,SOD,AVE,DUGA,TOKYO-HOT,ARZON,AVWIKI,JavBus,JAV321,AIRAV`
-
-### 过滤无码源
-
-仅供参考，不建议这么做
-
-- `FANZA,MYWIFE,MGS,Getchu,PRESTIGE,SOD,DUGA,ARZON,AVWIKI,JavBus,JAV321,AIRAV` -->
+新版插件支持根据刮削源结果重新过滤与排序。在插件配置页面中配置`Movie provider filter`。
 
 ### 只开启三个源
 
-优先顺序为 JavBus>Arzon>AVWIKI（仅供参考，不建议这么做）
+优先顺序为 Provider1 > Provider2 > Provider3（仅供参考）
 
-- `JavBus,Arzon,AVBASE`
+- `Provider1,Provider2,Provider3`
 
-⚠️注意：
+⚠️ 注意：
 
 - 所有刮削源的名字可以在[数据来源](./metadata-providers.md)中找到。
 - 刮削源名字大小写不敏感，但字母必须一一对应。

@@ -13,7 +13,7 @@
 ## 预定义替换符
 
 - `{provider}`: 提供源
-- `{id}`: 源ID
+- `{id}`: 源 ID
 - `{number}`: 品番
 - `{title}`: 标题
 - `{series}`: シリーズ
