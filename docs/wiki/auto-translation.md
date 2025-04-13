@@ -26,10 +26,10 @@
 在 Plex 中使用以下翻译引擎需要在`Translation engine parameters`配置中手动填入相关参数：
 
 - **Google**: `google-api-key=XXX`
-- **DeepL**: `deepl-api-key=XXX,deepl-api-url=https://your-api-url/v2`
-  - Optional: `deepl-api-url`
-- **OpenAI**: `openai-api-key=XXX,openai-api-url=https://your-api-url/v1,openai-model=XXX`
-  - Optional: `openai-api-url` and `openai-model`
+- **DeepL**: `deepl-api-key=XXX`
+  (Optional: `deepl-api-url=https://your-api-url/v2`)
+- **OpenAI**: `openai-api-key=XXX`
+  (Optional: `openai-api-url=https://your-api-url/v1` and `openai-model=XXX`)
 - **Baidu**: `baidu-app-id=XXX,baidu-app-key=XXX`
 
 > `XXX`即为相关的参数值，参数之间使用逗号分隔。
