@@ -13,7 +13,7 @@
 - Title and Summary：翻译标题和简介
 - Title, Summary and Reviews：全部翻译（仅 Plex）
 
-> PS：选择需要的翻译引擎，百度翻译准确度高但是有一定的翻译限制，谷歌翻译速度快限制少但是准确性略低。部分翻译引擎需要提供对应的API密钥等。
+> PS：选择需要的翻译引擎，百度翻译准确度高但是有一定的翻译限制，谷歌翻译速度快限制少但是准确性略低。部分翻译引擎需要提供对应的 API 密钥等。
 
 ## 选择语言
 
@@ -26,8 +26,10 @@
 在 Plex 中使用以下翻译引擎需要在`Translation engine parameters`配置中手动填入相关参数：
 
 - **Google**: `google-api-key=XXX`
-- **DeepL**: `deepl-api-key=XXX`
-- **OpenAI**: `openai-api-key=XXX`
+- **DeepL**: `deepl-api-key=XXX,deepl-api-url=https://your-api-url/v2`
+  - Optional: `deepl-api-url`
+- **OpenAI**: `openai-api-key=XXX,openai-api-url=https://your-api-url/v1,openai-model=XXX`
+  - Optional: `openai-api-url` and `openai-model`
 - **Baidu**: `baidu-app-id=XXX,baidu-app-key=XXX`
 
 > `XXX`即为相关的参数值，参数之间使用逗号分隔。
