@@ -1,0 +1,301 @@
+/* Pornhub Logo Color = rgb(247, 151, 29) = #f7971d */
+/* Pornhub Primary Color = rgb(255, 153, 0) = #f90 */
+
+::-moz-selection {
+	background-color: #bf7200;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background-color: #bf7200;
+	color: #fff;
+	text-shadow: none;
+}
+
+html {
+	touch-action: manipulation;
+}
+
+body {
+	font-weight: 300;
+	color: #ccc;
+	background-color: #141414;
+}
+
+a,
+a:focus,
+a:hover {
+	color: #f90;
+	border-radius: 0.1rem;
+}
+
+a:active {
+	color: #fff;
+	background-color: #7f4c00;
+	text-decoration: none;
+	box-shadow: 0 0 0 0.2rem #7f4c00;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.mastfoot {
+	color: rgba(255, 255, 255, .5);
+}
+
+h1 {
+	font-weight: 300;
+}
+
+.form-control {
+	color: #fff;
+	background-color: #2f2f2f;
+	border-color: #2f2f2f;
+}
+
+.form-control:focus {
+	color: #fff;
+	background-color: #2f2f2f;
+	border-color: #f90;
+	box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+}
+
+.form-control:not(:disabled):active {
+	background-color: #7f4c00;
+	border-color: #7f4c00;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #808080;
+}
+
+.form-control::-moz-placeholder {
+	color: #808080;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #808080;
+}
+
+.form-control::-ms-input-placeholder {
+	color: #808080;
+}
+
+.form-control::placeholder {
+	color: #808080;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #e9ecef;
+	/* ! */
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	/* ! */
+	color: #333;
+	background-color: #fff;
+	border: .05rem solid #fff;
+}
+
+.btn-outline-primary {
+	color: #f90;
+	border-color: #f90;
+}
+
+.btn-outline-primary:hover {
+	color: #000;
+	background-color: #f90;
+	border-color: #f90;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+	box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.5);
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+	color: #f90;
+	background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+	color: #fff;
+	background-color: #7f4c00;
+	border-color: #7f4c00;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	color: #fff;
+	border-color: #f90;
+	background-color: #f90;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+	box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+	border-color: #f90;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+	color: #fff;
+	background-color: #7f4c00;
+	border-color: #7f4c00;
+}
+
+.custom-control-input:disabled~.custom-control-label {
+	color: #6c757d;
+	/* ! */
+}
+
+.custom-control-input:disabled~.custom-control-label::before {
+	background-color: #e9ecef;
+	/* ! */
+}
+
+.custom-control-label::before {
+	background-color: #2f2f2f;
+	border-color: #2f2f2f;
+}
+
+.custom-checkbox .custom-control-input:not(:active):checked~.custom-control-label::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23000' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.custom-checkbox .custom-control-input:not(:active):indeterminate~.custom-control-label::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23000' d='M0 2h4'/%3e%3c/svg%3e");
+}
+
+.custom-radio .custom-control-input:not(:active):checked~.custom-control-label::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23000'/%3e%3c/svg%3e");
+}
+
+.tip {
+	position: relative;
+	transition: height 250ms ease-out;
+}
+
+.tip.tip-hidden {}
+
+.tip-inner {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	color: #f90;
+	background-color: #2f2f2f;
+	font-size: 1.25rem;
+	border-radius: 0.25rem;
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 250ms ease-out, transform 250ms ease-out, color 0.15s ease-out, background-color 0.15s ease-out;
+}
+
+.tip-inner:active {
+	color: #fff;
+	background-color: #7f4c00;
+}
+
+.tip.tip-hidden .tip-inner {
+	opacity: 0;
+	transform: scale(0.5);
+}
+
+.pornhub-wrapper {
+	position: relative;
+	top: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+	.pornhub-wrapper {
+		max-width: 75vmin;
+	}
+}
+
+.pornhub-fill {
+	padding-top: 100%;
+}
+
+.pornhub {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10vmin;
+	line-height: 1.25;
+	color: #fff;
+	background-color: #000b25;
+	border-radius: 0.25rem;
+}
+
+.pornhub.style-2 {
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.porn-text,
+.hub-text {
+	padding-right: 0.1em;
+	padding-left: 0.1em;
+	cursor: text;
+	outline: none;
+	white-space: pre;
+}
+
+.hub-text {
+	/* color: #000; */
+	/* background-color: #f7971d; */
+	color: #000b25;
+	background-image: linear-gradient(125deg, #aa5cc3, #00a4dc);
+	border-radius: 0.1em;
+}
+
+.pornhub.light {
+	/* color: #000; */
+	color: #000b25;
+	background-color: #fff;
+}
+
+.pornhub.light .hub-text {
+	color: #fff;
+}
+
+.pornhub,
+.pornhub .hub-text {
+	transition: color 250ms ease-out, background-color 250ms ease-out;
+}
