@@ -20,6 +20,16 @@
 
 例如：
 
+### 新版（v1.4+）
+
+- 将`AVBASE`的优先级设置为 1000：`export MT_MOVIE_PROVIDER_AVBASE__PRIORITY=1000`
+- 将`GFriends`的优先级设置为 99：`export MT_ACTOR_PROVIDER_GFRIENDS__PRIORITY=99`
+- 将`JavBus`从刮削源中移除（设置为 0）：`export MT_MOVIE_PROVIDER_JAVBUS__PRIORITY=0`
+
+> ⚠️ 注意：Provider 名称和 `PRIORITY` 属性名之间是**双下划线** `__`.
+
+### 旧版（v1.3-）
+
 - 将`AVBASE`的优先级设置为 1000：`export MT_MOVIE_PROVIDER_PRIORITY_AVBASE=1000`
 - 将`GFriends`的优先级设置为 99：`export MT_ACTOR_PROVIDER_PRIORITY_GFRIENDS=99`
 - 将`ARZON`从刮削源中移除（设置为 0）：`export MT_MOVIE_PROVIDER_PRIORITY_ARZON=0`
