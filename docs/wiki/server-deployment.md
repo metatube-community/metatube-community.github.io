@@ -65,7 +65,7 @@ docker rm metatube
 
 ```sh
 mkdir metatube-sdk-go && cd metatube-sdk-go
-curl -sL https://raw.githubusercontent.com/metatube-community/metatube-sdk-go/main/docker-compose.yml -o docker-compose.yml
+curl -sL https://raw.githubusercontent.com/metatube-community/metatube-sdk-go/main/docker-compose.yaml -o docker-compose.yaml
 docker-compose up -d
 ```
 
