@@ -14,7 +14,7 @@ English | [简体中文](README_ZH.md)
 
 **Documentation**: [https://metatube-community.github.io](https://metatube-community.github.io)
 
-**Community Link**: [https://github.com/metatube-community](https://github.com/metatube-community)
+**Project Link**: [https://github.com/metatube-community](https://github.com/metatube-community)
 
 ---
 
@@ -56,21 +56,15 @@ _A restart is required to apply plugin updates._
 
 MetaTube integrates Actor Providers and is able to automatically search and identify actors by their names. You don't need to do any configuration to make it work, it already works like a charm!
 
-For now, [`GFriends`](https://github.com/gfriends/gfriends) and [`AV-LEAGUE`](https://www.av-league.com/) are used as sources to provide actor information and images.
-
 ### Suggestions
 
 - Normal file names can improve search/identification accuracy, see [naming rules](./wiki/naming-rules.md) for more details.
-- Select `MetaTube` as the only Metadata Provider can avoid certain conflict bugs.
+- Select `MetaTube` as the only Metadata Provider can avoid certain conflict issues.
 
 ## Feedback
 
 - If you encounter bugs, please submit issues at [Issues](https://github.com/metatube-community/jellyfin-plugin-metatube/issues).
 - If you have any questions, welcome and feel free to ask at [Discussions](https://github.com/metatube-community/jellyfin-plugin-metatube/discussions).
-
-<!-- ## Previews
-
-[Screenshots are for preview only](./previews/README.md). -->
 
 ## License
 
