@@ -14,7 +14,7 @@ English | [简体中文](README_ZH.md)
 
 **Documentation**: [https://metatube-community.github.io](https://metatube-community.github.io)
 
-**Project Link**: [https://github.com/metatube-community](https://github.com/metatube-community)
+**GitHub Project**: [https://github.com/metatube-community](https://github.com/metatube-community)
 
 ---
 
@@ -43,8 +43,8 @@ _A restart is required to apply plugin updates._
 - Locate MetaTube plugin configuration page.
 - Input server url and server token (if any).
 - Go to movie library:
-  - Select the `Movie` type.
-  - Check `MetaTube` as Metadata and Image provider.
+    - Select the `Movie` type.
+    - Check `MetaTube` as Metadata and Image provider.
 
 ## Usage
 
